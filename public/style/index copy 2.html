@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="text" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="">
+<title>Absolute</title>
+<link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style/css/plugins.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/css/navigation.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/revolution-addons/filmstrip/css/revolution.addon.filmstrip.css">
+<link rel="stylesheet" type="text/css" href="style/revolution/revolution-addons/typewriter/css/typewriter.css">
+<link rel="stylesheet" type="text/css" href="style/type/icons.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style/css/color/forest.css">
+<link href='https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styleform.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+<style>
+  .contain {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  }
+  .imageo {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-left:10%;
+  }
+  .overlays {
+  position: relative; 
+  bottom: 0; 
+  /* background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);  */
+  background: white;
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease; 
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  margin-top: -280px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.contain:hover .overlays {
+  opacity: 1;
+}
+.contain2 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  }
+  .imageo2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* margin-left:10%; */
+  }
+  .overlays2 {
+    z-index: 5;
+  position: absolute; 
+   
+  /* background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);  */
+  background: white;
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  margin-top: -180px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.contain2:hover .overlays2 {
+  opacity: 1;
+}
+</style>
+<body>
+<div class="content-wrapper">
+  <nav class="navbar solid nav-wrapper-light navbar-expand-lg text-uppercase">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-brand"><a href="index.html"><img src="#" srcset="style/absolute/logo.svg 1x, style/absolute/logo.svg " alt="" /></a></div>
+        
+        <div class="navbar-hamburger ml-auto d-lg-none d-xl-none"><button class="hamburger animate" data-toggle="collapse" data-target=".navbar-collapse"><span></span></button></div> 
+      </div>
+      <!-- /.navbar-header -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link smoothScroll" href="#about">ABOUT US</a></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle smoothScroll" href="#vision">OUR VISION</a></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle smoothScroll" href="#team">TEAM</a></li>
+          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle smoothScroll" href="#port">PORTFOLIO</a></li>
+        </ul>
+        <!-- /.navbar-nav -->
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
+  
+  <!-- /.wrapper -->
+  <div class="video-wrapper inverse-text" data-aos="fade" >
+    <div class="video-wrapper-inner bgimg1">
+      <div class="content-overlay">
+        <div class="container text-center">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel pt-320" >
+              <div class="pt-40 mob-40">
+                <div class="mt-100 firstbox">
+                  <p class="sub-heading2"><span >Rewrite the Rules,<br>
+                    Embrace Innovation</span></p>
+                    <p class="contentf" >We are here to revolutionise the fashion apparel industry by building a portfolio of brands that challenge the status quo.
+                    </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container --> 
+      </div>
+      <!-- /.content-overlay --> 
+    </div>
+    <!-- /.video-wrapper-inner --> 
+  </div>
+  <!-- /.wrapper -->
+  <div class="wrapper light-wrapper abt" id="about" >
+    <div class="row" id="parent" >
+      <div class="col-lg-12">
+        <div class="bg2d">
+          <h2 class="head1">About Us</h2>
+          <p class="content2">We are building a house of home grown fashion brands based on psychographic led positioning, that operates across a range of large, fast growing and emerging or under-serviced product categories and create value for all stakeholders with a startup mindset.
+          </p>
+        </div>
+      </div> 
+    </div>
+  </div>
+ <!-- /.wrapper -->
+  <div class="wrapper light-wrapper" >
+    <div class="row">
+      <div class="col-lg-7 bg1-1" > 
+        <div class="pads"></div>
+      </div>
+      <div class="col-lg-5 centerss" style="padding-left: 0; padding-right: 0;"> 
+        <div class="pads2 ">
+          <p class="content wid1">We are building teams that will live and breathe the ethos of each of our brands while being supported with business infrastructure that drives growth, efficiencies, value creation across the fashion segment.</p>
+          <div class="keepleft margins">
+            <a class="button1" href="#"><b>GET IN TOUCH</b> </a>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+  <div class="space50 none"></div>
+  <!-- Our Vision -->
+  <div class="wrapper light-wrapper" id="vision" >
+    <div class="container inner">
+      <h2 class="foucs-head text-center">Our Vision</h2>
+      <p class="content3 text-center">To have a pan-India presence and <br> 1000+ stores across 4 different brands.</p>
+      <div class="space50 none"></div>
+      <div class="row sd">
+        <div class="col-lg-4 col text-center">
+          <img src="style/absolute/1.png" alt="">
+        </div>
+        <!--/column 1-->
+        <div class="col-lg-4 col text-center"> 
+          <img src="style/absolute/2.png" alt="">
+        </div>
+        <!--/column 2-->
+        <div class="col-lg-4 col text-center"> 
+          <img src="style/absolute/3.png" alt="">
+        </div>
+        <!--/column 3-->
+      </div>
+      <div class="row mob">
+        <div class="col-lg-4 col text-center">
+          <img src="style/absolute/icons.PNG" alt="">
+        </div>
+      </div>
+      <!--/.row --> 
+    </div>
+    <!-- /.container --> 
+  </div>
+  <div class="space100 none"></div>
+ <!-- /.wrapper 1-->
+ <div class="wrapper light-wrapper desk" >
+  <div class="swiper-container-wrapper basic-slider" >
+    <div class="swiper-container text-center" >
+      <!-- /.swiper-slide -->
+      <div class="swiper-wrapper" >
+        <div class="swiper-slide" >
+          <div class="row" id="parent" style="margin-left: 0;">
+            <div class="col-lg-6 " style="background-color: white; padding: 5% 10%;">
+              <div class="carousel-item active" >
+                <div class="item-slide" >
+                  <h5 class="lg-text2">01</h5>
+                  <h1 class="nhead mt-20">A new standard for fashion apparel</h1>
+                  <p class="content3 black mt-20" >Whether it's comfort or style or the <br> quality of materials, we are setting <br> new standards.</p>
+                  <div class="text-left">
+                    <img class="mt-60" src="style/absolute/dots.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="style/absolute/Mask group.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- /.swiper-slide -->
+      </div>
+      <!-- /.swiper-wrapper --> 
+    </div>
+  </div>
+  <!-- /.swiper-container-wrapper -->
+  <div class="space100"></div>
+</div>
+
+<div class="wrapper light-wrapper desk" >
+  <div class="swiper-container-wrapper basic-slider" >
+    <div class="swiper-container text-center" >
+      <!-- /.swiper-slide -->
+      <div class="swiper-wrapper" >
+        <div class="swiper-slide" >
+          <div class="row" id="parent" style="margin-left: 0;">
+            <div class="col-lg-6">
+              <img src="style/absolute/Mask group2.png" alt="">
+            </div>
+            <div class="col-lg-6 " style="background-color: white; padding: 5% 10%;">
+              <div class="carousel-item active" >
+                <div class="item-slide" >
+                  <h5 class="lg-text2">02</h5>
+                  <h1 class="nhead mt-20">Wear sustainability on our sleeve</h1>
+                  <p class="content3 black mt-20" >We understand that this is not <br> just a category of apparels, it's <br> an essential ingredient.</p>
+                  <div class="text-left">
+                    <img class="mt-60" src="style/absolute/dots.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.swiper-slide -->
+      </div>
+      <!-- /.swiper-wrapper --> 
+    </div>
+  </div>
+  <!-- /.swiper-container-wrapper -->
+  <div class="space100"></div>
+</div>
+
+<div class="wrapper light-wrapper desk" >
+  <div class="swiper-container-wrapper basic-slider" >
+    <div class="swiper-container text-center" >
+      <!-- /.swiper-slide -->
+      <div class="swiper-wrapper" >
+        <div class="swiper-slide" >
+          <div class="row" id="parent" style="margin-left: 0;">
+            <div class="col-lg-6 " style="background-color: white; padding: 5% 8%;">
+              <div class="carousel-item active" >
+                <div class="item-slide" >
+                  <h5 class="lg-text2">03</h5>
+                  <h1 class="nhead mt-20">We want to positively impact & inspire</h1>
+                  <p class="content3 black mt-20" >We are creating our range and <br> our communication to celebrate <br> our customers individuality.</p>
+                  <div class="text-left">
+                    <img class="mt-60" src="style/absolute/dots.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="style/absolute/Mask group3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- /.swiper-slide -->
+      </div>
+      <!-- /.swiper-wrapper --> 
+    </div>
+  </div>
+  <!-- /.swiper-container-wrapper -->
+</div>
+
+<div class="mob" id="parent" >
+  <img src="style/absolute/Group 1158.svg" alt="">
+  <div class="space100"></div>
+  <img src="style/absolute/Group 1156.svg" alt="">
+  <div class="space100"></div>
+  <img src="style/absolute/Group 1157.svg" alt="">
+</div>
+
+<div class="space120"></div>
+<!-- /.wrapper -->
+  <div class="wrapper gray-wrapper" id="team" style="background-color:#0066B3; padding-bottom: 60px;overflow: hidden;">
+    <div class="container pt-90">
+      <h2 class="foucs-head2 text-left">Leadership Team</h2>
+    </div>
+    <div class="container pt-20 wid2">
+      <div class="space50 none"></div>
+      <div class="row sd">
+        <div class="col-md-4">
+          <!-- <div class="contain">
+            <img src="style/absolute/Absolute-Webpage/Mask group-1.png" alt="Avatar" class="imageo">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo">
+                <p class="text6" style="margin-bottom: 5px;">Mathew D’Souza </p>
+                <p class="text7">FOUNDER | DIRECTOR</p>
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+            
+          </div>           -->
+        </div>
+        
+        <!--/column -->
+        <div class="col-md-4">
+          <div class="contain2">
+            <img src="style/absolute/Picture1.png" alt="Avatar" class="imageo">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo" style="text-align: center;">
+                <p class="text6" style="margin-bottom: 5px;">Vishnu Prasad</p>
+                <p class="text7">CEO</p>
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+            <div class="overlays2" style="z-index: 10;">
+              <div class="">
+                <!-- <h5 class="text1">Vipul Parekh</h5>
+                <div class="text2 text-uppercase">CO-FOUNDER AT BIG BASKET</div>
+                <div class="">
+                    <div class="text3 text-uppercase">BACKGROUND</div>
+                    <p class="text4">IIM Bangalore | Angel Investor </p>
+                </div>
+                <hr class="linebl" /> -->
+                <p class="mb-0 text5" style="font-size: 13px;">With over three decades of sales and retail experience, Vishnu joined the Future Group in
+                  2001 and amassed a remarkable 22-year tenure. Before this he was part of the core team at
+                  Aravind who brought denim to India. While providing adept leadership at Future group, he
+                  played a pivotal role in setting up Big Bazaar stores in South India before moving on to
+                  conceptualize the Central and Fashion Brands, which was a first of its kind, one-stop shop
+                  for eating and shopping.
+                  Venturing into an entrepreneurial role, Vishnu has now assumed the position of CEO at
+                  Absolute Brands and Retail, with the ambitious aim of reshaping the landscape of the
+                  fashion industry.</p>
+                <div class="inline">
+                  <p style="padding-right: 30px;"><a href="https://www.linkedin.com/in/vipulparekh/"><img src="style/cap-ventures/linkedin.svg" alt=""></a></p>
+                  <p style="padding-right: 30px;"><a href="https://www.linkedin.com/in/vipulparekh/"><img src="style/cap-ventures/email2.svg" alt=""></a></p>
+                 <!-- <p><a href=""><img src="style/cap-ventures/instagram2.svg" alt=""></a></p> -->
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <!--/column -->
+        <div class="col-md-4">
+          <!-- <div class="contain">
+            <img src="style/absolute/Absolute-Webpage/Mask group-2.png" alt="Avatar" class="imageo">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo">
+                <p class="text6" style="margin-bottom: 5px;">Srihari VU </p>
+                <p class="text7">CO-FOUNDER  |  PARTNER</p>
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+             
+          </div>           -->
+        </div>
+        <!--/column -->
+      </div>
+      <!--/.row --> 
+      <div class="row smob">
+        <div class="swiper-container-wrapper image-grid swiper-col3-20" data-aos="fade">
+          <div class="swiper-container text-center">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="margin-right: 0;">
+                <img src="style/absolute/Picture1.png" alt=""> 
+                <div class="imageo pt-20">
+                  <p class="text6" style="margin-bottom: 5px;">Vishnu Prasad</p>
+                  <p class="text7">CEO</p>
+                </div> 
+              </div>
+            </div>
+            <!-- /.swiper-wrapper --> 
+          </div>
+          <!-- .swiper-container -->
+          <div class="swiper-pagination gap-large"></div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.wrapper -->
+  <div class="wrapper light-wrapper" >
+    <div class="container pt-120">
+      <h2 class="foucs-head2 black text-left">Board of Advisors</h2>
+    </div>
+    <div class="container pt-20 sd ">
+      <div class="space50 none"></div>
+    
+        <div class="row pt-50">
+         <!--/column -->
+         <div class="col-lg-2"></div>
+         <div class="col-lg-4 col-6">
+          <div class="contain2">
+            <img src="style/absolute/2-1.jpg" alt="Avatar" class="imageo2">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo">
+                <p class="text1" style="margin-bottom: 5px;">Umesh Sangurmath</p>
+                <!-- <div class="text7 text-uppercase">Angel Investor</div> -->
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+            <div class="overlays2">
+              <div class="">
+                <h5 class="text1">Umesh Sangurmath</h5>
+                <!-- <div class="text2 text-uppercase">Angel Investor</div> -->
+                <!-- <div class="">
+                    <div class="text3 text-uppercase">BACKGROUND</div>
+                    <p class="text4">NITK-Suratkal, IIM-Ahmedabad | Idealabz, Numen Capital, JP Morgan</p>
+                </div> -->
+                <hr class="linebl" />
+                <p class="mb-0 text5" style="font-size: 13px;">Umesh has three decades of experience in managing P&L, Sales, Strategy, and Technology functions. He is a veteran of Wipro and has held senior leadership positions at Future Group. Umesh is a Serial entrepreneur with multiple start-up stints in Tech, Retail, and Real Estate.
+                </p>
+                <div class="inline">
+                  <p style="padding-right: 30px;"><a href="https://www.linkedin.com/in/vishnu-prasad-74717a31/"><img src="style/cap-ventures/linkedin.svg" alt=""></a></p>
+                  <!-- <p style="padding-right: 30px;"><a href="https://www.linkedin.com/in/kushalkumarlondon/"><img src="style/cap-ventures/email2.svg" alt=""></a></p> -->
+                 <!-- <p><a href=""><img src="style/cap-ventures/instagram2.svg" alt=""></a></p> -->
+                </div>
+              </div>
+             
+            </div>
+          </div>
+         </div>
+         <!--/column --> 
+        <div class="col-lg-4 col-6">
+          <div class="contain2">
+            <img src="style/absolute/3c.png" alt="Avatar" class="imageo2">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo">
+                <p class="text1" style="margin-bottom: 5px;">Sadashiv Nayak</p>
+                <!-- <div class="text7 text-uppercase">CFO &amp; BOARD MEMBER AT KIAL</div> -->
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+            <div class="overlays2">
+              <div class="">
+                <h5 class="text1">Sadashiv Nayak</h5>
+                <!-- <div class="text2 text-uppercase">CFO &amp; BOARD MEMBER AT KIAL</div> -->
+                <!-- <div class="">
+                    <div class="text3 text-uppercase">BACKGROUND</div>
+                    <p class="text4">St. Xavier’s-Kolkata, ICAI, CPA | Al Rashideen, GMR, UB Group</p>
+                </div> -->
+                <hr class="linebl" />
+                <p class="mb-0 text5" style="font-size: 13px;">With 28 years in scaling up organizations, driving business turnarounds, hyper-localizing operations, and leading category and channel disruptions, Sadashiv’s most recent assignment was as CEO for Future Retail as CEO. He also led the expansion and growth of Big Bazaar to become India’s largest hypermarket and has enjoyed navigating both MNC and entrepreneur/ founder-led organizational cultures. Sadashiv is now a principal advisor with leading players in the space of decorative laminates and organic foods. He is an alumnus of NIT-K and XLRI Jamshedpur.
+                </p>
+                <div class="inline">
+                  <p style="padding-right: 30px;"><a href="https://www.linkedin.com/in/sadashiv-nayak/"><img src="style/cap-ventures/linkedin.svg" alt=""></a></p>
+                  <!-- <p style="padding-right: 30px;"><a href="https://www.linkedin.com/in/bhaskaranandrao"><img src="style/cap-ventures/email2.svg" alt=""></a></p> -->
+                  <!-- <p><a href=""><img src="style/cap-ventures/instagram2.svg" alt=""></a></p> -->
+                </div>
+              </div>
+              
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-2"></div>
+         <!--/column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container --> 
+    <div class="container pt-20 mob">
+      <div class="space50 none"></div>
+      <div class="row">
+        <div class="col-6">
+          <div class="contain2">
+            <img src="style/absolute/2-1.jpg" alt="Avatar" class="imageo2">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo">
+                <p class="text1" style="margin-bottom: 5px;">Umesh Sangurmath</p>
+                <!-- <div class="text2 text-uppercase">DIRECTOR AT IIM INDORE</div> -->
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+          </div> 
+         </div>
+        <!--/column -->
+        <div class="col-6">
+          <div class="contain2">
+            <img src="style/absolute/3c.png" alt="Avatar" class="imageo2">
+            <div class="inline" style="display: flex;justify-content: flex-end">
+              <div class="imageo">
+                <p class="text1" style="margin-bottom: 5px;">Sadashiv Nayak</p>
+                <!-- <div class="text7 text-uppercase">CO-FOUNDER AT BIG BASKET</div> -->
+              </div>
+              <div>
+                <img src="style/cap-ventures/li.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/column -->
+      
+      </div>
+      
+    </div>
+  </div>   
+
+  <!-- /.wrapper 1-->
+  <div class="pt-120 none"></div>
+    <h2 class="foucs-head2 black text-left" id="port">Our Portfolio</h2>
+      <div class="space80 none"></div>
+      <div class="wrapper image-wrapper bg-image sd"  data-image-src="style/absolute/rectangle.jpg" >
+       <div class="container pt-120">
+        <div class="row" >
+          <div class="white-box">
+            <ul class="social social-mute social-s">
+              <li style="margin-top: 0px;"><img src="style/absolute/BH-logo-inv 1.svg" alt=""></li>
+              <li><div class="navbar-divider"></div></li>
+              <li>www.bighello.com</li>
+              <li><div class="navbar-divider"></div></li>
+              <li>Bangalore</li>
+            </ul>
+            <div class="space90 none"></div>
+            <div class="space90 "></div>
+            <div class="new1">
+              <h5 class="lg-text2">Live Unlimited</h5>
+                <p class="content black">Big Hello is a brand celebrates the plus size in its full glory. Unapologetic and larger than life, we embrace all body shapes and sizes; the way they come naturally</p>
+            </div>
+           </div>
+          </div> 
+        </div>
+      </div> 
+    <!-- /.wrapper -->
+    <div class="space70 none"></div>
+    <!-- /.wrapper 2-->
+  <div class="wrapper image-wrapper bg-image sd" data-image-src="style/absolute/rectangle1.jpg" >
+    <div class="container pt-120">
+      <div class="row " >
+        <div class="white-box2">
+          <ul class="social social-mute social-s">
+            <li style="margin-top: 0px;"><img src="style/absolute/joy-logo.svg" alt=""></li>
+            <li><div class="navbar-divider"></div></li>
+            <li>www.joyunlimited.in</li>
+            <li><div class="navbar-divider"></div></li>
+            <li>Bangalore</li>
+          </ul>
+        <div class="space90 none"></div>
+      <div class="space90 none"></div>
+        <div>
+          <h5 class="lg-text2">Joy Unlimited</h5>
+          <p class="content black">A clothing brand for the happiest, most <br>fulfilled version of you.</p>
+        </div>
+      </div>
+    </div> 
+    </div>
+  </div> 
+<!-- /.wrapper mob-->
+<div class="mob" >
+  <div style="background-image: url(style/absolute/Rectanglem.png); background-position: center; background-size: cover;">
+    <div class="row" style="height: 50vh;"></div>
+  </div>
+  <div class="white-box">
+    <ul class="social social-mute social-s" style="text-align: left;">
+      <li style="margin-top: 0px;"><img src="style/absolute/BH-logo-inv 1.png" alt=""></li>
+      <li style="margin-top: 20px;"><img src="style/absolute/Line.svg" alt=""></li>
+      <li style="margin-top: 20px;"><img src="style/absolute/l1.svg" alt=""></li>
+    </ul>
+    <div class="space90 none"></div>
+    <div class="space90 "></div>
+    <div class="new1">
+      <h5 class="lg-text2">Live Unlimited</h5>
+        <p class="content black">Big Hello is a brand celebrates the plus size in its full glory. Unapologetic and larger than life, we embrace all body shapes and sizes; the way they come naturally</p>
+    </div>
+   </div>
+   <!--2-->
+   <div style="background-image: url(style/absolute/Rectanglem2.png); background-position: center; background-size: cover;">
+    <div class="row" style="height: 50vh;"></div>
+  </div>
+  <div class="white-box">
+    <ul class="social social-mute social-s" style="text-align: left;">
+      <li style="margin-top: 0px;"><img src="style/absolute/joy.png" alt=""></li>
+      <li style="margin-top: 20px;"><img src="style/absolute/Line.svg" alt=""></li>
+      <li style="margin-top: 20px;"><img src="style/absolute/l2.svg" alt=""></li>
+    </ul>
+    <div class="space90 none"></div>
+    <div class="space90 "></div>
+    <div class="new1">
+      <h5 class="lg-text2">Joy Unlimited</h5>
+        <p class="content black">A clothing brand for the <br>happiest, most fulfilled <br>version of you.</p>
+    </div>
+   </div>
+
+</div>
+<!-- /.wrapper mob-->
+
+<div class="space100 none"></div>
+  
+  <!-- /.wrapper -->
+  <footer class="light-wrapper inverse-text" style="background-color:#0066B3; padding-top: 90px; padding-bottom: 40px;overflow: hidden;">
+    <div class="container inner pt-60 pb-60">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="widget"> <img src="#" srcset="style/absolute/logo.svg 1x, style/absolute/logo.svg " alt="" />
+            <div class="space20"></div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="widget ml-25">
+                <h5 class="widget-title"><a class="smoothScroll" href="#about">ABOUT US</a></h5>
+                <h5 class="widget-title"><a class="smoothScroll" href="#vision">OUR VISION</a></h5>
+                <h5 class="widget-title"><a class="smoothScroll" href="#team">TEAM</a></h5>
+                <h5 class="widget-title"><a class="smoothScroll" href="#port">PORTFOLIO</a></h5>
+              </div>
+            </div>
+            </div>
+            <div class="space50"></div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="widget inline">
+                  <p><img src="style/absolute/icon1.svg" alt=""></p>&nbsp;&nbsp;
+                  <p class="foot1">
+                    No.35, Next to Vaibhav Cafe<br>
+                    South End Road, Kanakpura<br>
+                    Main Road, Basavanagudi,<br>
+                    Bangalore - 560 004
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="widget ml-40">
+                  <p><a href="" class="foot1"><img src="style/absolute/icon2.svg" alt="">&nbsp;&nbsp; Sales: +91 8088850850</a> </p>
+                  <p><a href="" class="foot1 ml-30">Board: +91 80494 9990 </a></p>
+                  <div class="space10"></div>
+                  <p><a href="" class="foot1"><img src="style/absolute/icon3.svg" alt="">&nbsp;&nbsp;sales@capstonelife.in </a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- /.container -->
+  </footer>
+</div>
+<!-- /.content-wrapper --> 
+<script src="style/js/jquery.min.js"></script> 
+<script src="style/js/popper.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/revolution/js/jquery.themepunch.tools.min.js"></script> 
+<script src="style/revolution/js/jquery.themepunch.revolution.min.js"></script> 
+<script src="style/revolution/revolution-addons/filmstrip/js/revolution.addon.filmstrip.min.js"></script> 
+<script src="style/revolution/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.actions.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.kenburn.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.migration.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.parallax.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.slideanims.min.js"></script> 
+<script src="style/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="style/js/plugins.js"></script> 
+<script src="style/js/scripts.js"></script>
+<script>
+  $(function() {
+  // This will select everything with the class smoothScroll
+  // This should prevent problems with carousel, scrollspy, etc...
+  $('.smoothScroll').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000); // The number here represents the speed of the scroll in milliseconds
+        return false;
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>

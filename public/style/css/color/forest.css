@@ -67,7 +67,8 @@ a:focus {
 }
 .swiper-container-wrapper .swiper-pagination .swiper-pagination-bullet:hover,
 .swiper-container-wrapper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #4D4D4D
+    background: #0066B3;
+
 }
 .post-title a:hover,
 .more:hover,
