@@ -371,7 +371,27 @@ form .page .btns button.next {
 }
 
 @media screen and (max-width: 660px) {
-    
+    .post-title1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .tag{
+        font-size: 25px;
+    }
+    .para2{
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .padss {
+        padding: 0px 0px;
+    }
+    .chat{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .siderbar{
+        padding: 30px !important;
+    }
     .widget-title, .foot1 {
         font-size: 10px;    
     }
@@ -409,7 +429,7 @@ form .page .btns button.next {
         display: none;
     }
     .foucs-head2{
-        font-size: 24px;
+        font-size: 34px;
     }
     .text7, .text6{
         text-align: center;
@@ -434,8 +454,8 @@ form .page .btns button.next {
         height: 70vh;
     }
     .head1{
-        font-size: 25px;
-        line-height: 65px;
+        font-size: 40px;
+        line-height: 45px;
     }
     .content2{
         width:auto;
@@ -567,7 +587,7 @@ color: #FFFFFF;
     }
     
     .foucs-head{
-        font-size: 25px;
+        font-size: 55px;
         line-height: 50px;
     }
 
@@ -603,8 +623,8 @@ color: #FFFFFF;
         line-height: 70px;
     }
     .sub-heading2{
-        font-size: 25px;
-        line-height: 28px;
+        font-size: 52px;
+        line-height: 63px;
         text-align: center;
     }
     

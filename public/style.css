@@ -67,6 +67,12 @@ html, body{
     padding: 0;
     overflow-x: hidden;
 }
+.chat{
+    text-align: right;
+}
+.left{
+    text-align: left !important;
+}
 .we{
     font-family: Montserrat;
 font-size: 24px;
@@ -119,9 +125,9 @@ color: #0066B3;
 }
 .nhead{
     font-family: Montserrat;
-font-size: 48px;
-font-weight: 300;
-line-height: 50px;
+font-size: 86px;
+font-weight: 900;
+line-height: 85px;
 letter-spacing: 0em;
 text-align: left;
 
@@ -253,11 +259,11 @@ color: #FFFFFF;
 }
 .content3{
     font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: left;    
 }
 .white{
     color: white !important;
@@ -6418,7 +6424,7 @@ list-blue i {
         margin-bottom: 50px !important;
     }
     .sidebar {
-        padding-left: 15px !important
+        /* padding-left: 15px !important */
     }
     .sidebar.left-sidebar {
         padding-right: 15px !important;
