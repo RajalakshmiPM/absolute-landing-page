@@ -209,7 +209,7 @@ color: #fff !important;
 }
 .foucs-head{
     font-family: Montserrat;
-font-size: 128px;
+font-size: 110px;
 font-weight: 900;
 line-height: 125px;
 letter-spacing: 0em;
@@ -237,22 +237,25 @@ color: #FFFFFF !important;
 }
 
 .padss{
-    padding: 70px 0px;
+    padding: 20px 0px;
 }
 .foucs-head2{
     font-family: Montserrat;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 61px;
-    letter-spacing: 0em;
-    text-align: center !important;
+font-size: 86px;
+font-weight: 900;
+line-height: 85px;
+letter-spacing: 0em;
+text-align: center !important;
     color: #fff;    
+}
+.wid2{
+    
 }
 .para2{
     font-family: Montserrat;
-font-size: 18px;
+font-size: 14px;
 font-weight: 400;
-line-height: 30px;
+line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
@@ -276,6 +279,7 @@ color: #FFFFFF;
     left: 650px;
     color: #333333;
     padding: 50px;
+    margin-left: 20px
 }
 
 .white-box2{
@@ -6207,7 +6211,7 @@ list-blue i {
     }
     .navbar .navbar-nav li a {
         margin: 0;
-        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        /* border-top: 1px solid rgba(255, 255, 255, 0.08); */
     }
     .navbar:not(.center) .navbar-nav:not(.ml-auto)>li:first-child {
         border: 0;
